@@ -1,0 +1,88 @@
+/* Reset Dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace; /* Gaya font mesin tik yang unik */
+    background-color: #f4f4f0; /* Warna kertas vintage */
+    color: #1a1a1a;
+    padding: 20px;
+}
+
+/* Container Utama */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+/* Desain Kartu Judul Utama (Hero) */
+.hero-box {
+    background-color: #ffde4d; /* Kuning terang yang mencolok */
+    padding: 40px;
+    border: 4px solid #1a1a1a; /* Garis batas hitam tebal */
+    box-shadow: 10px 10px 0px #1a1a1a; /* Bayangan kaku khas Neo-Brutalism */
+    margin-bottom: 40px;
+    border-radius: 4px;
+}
+
+.hero-box h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 0px #fff;
+}
+
+.hero-box p {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Grid untuk Fitur */
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+/* Desain Kartu Fitur */
+.custom-card {
+    background-color: #ffffff;
+    padding: 25px;
+    border: 4px solid #1a1a1a;
+    box-shadow: 8px 8px 0px #1a1a1a;
+    transition: transform 0.1s, box-shadow 0.1s;
+    border-radius: 4px;
+}
+
+/* Efek saat kartu ditekan */
+.custom-card:hover {
+    transform: translate(3px, 3px);
+    box-shadow: 5px 5px 0px #1a1a1a;
+}
+
+/* Variasi Warna Unik Tiap Kartu */
+.card-1 { background-color: #ff6b6b; color: white; } /* Merah pop */
+.card-2 { background-color: #4dabf7; color: #1a1a1a; } /* Biru retro */
+.card-3 { background-color: #51cf66; color: #1a1a1a; } /* Hijau stabilo */
+
+.card-icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.custom-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #1a1a1a;
+    padding-bottom: 5px;
+}
+
+.custom-card p {
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
